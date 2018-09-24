@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1622691FFECF0500A06560 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1622681FFECF0500A06560 /* Card.swift */; };
+		ED16226B1FFEDFB000A06560 /* Card Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16226A1FFEDFB000A06560 /* Card Enums.swift */; };
+		ED187C5C21597EFE002005C7 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED187C5B21597EFE002005C7 /* CGRectExtension.swift */; };
+		ED217ABD2158322C00A85400 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED217ABC2158322C00A85400 /* CGPointExtensions.swift */; };
 		ED3FC9851FFEC824004A684A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3FC9841FFEC824004A684A /* AppDelegate.swift */; };
-		ED3FC9871FFEC824004A684A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3FC9861FFEC824004A684A /* ViewController.swift */; };
+		ED3FC9871FFEC824004A684A /* SetGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3FC9861FFEC824004A684A /* SetGameVC.swift */; };
 		ED3FC98A1FFEC824004A684A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3FC9881FFEC824004A684A /* Main.storyboard */; };
 		ED3FC98C1FFEC824004A684A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3FC98B1FFEC824004A684A /* Assets.xcassets */; };
 		ED3FC98F1FFEC824004A684A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3FC98D1FFEC824004A684A /* LaunchScreen.storyboard */; };
-		ED3FC99A1FFEC824004A684A /* CSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3FC9991FFEC824004A684A /* CSetTests.swift */; };
+		ED4035A72007D74400BF5DE7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4035A62007D74400BF5DE7 /* Grid.swift */; };
+		ED4035A92007D83500BF5DE7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4035A82007D83500BF5DE7 /* CardView.swift */; };
+		ED4035AB2007D85300BF5DE7 /* CardFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4035AA2007D85300BF5DE7 /* CardFieldView.swift */; };
+		ED4035AF20084EB700BF5DE7 /* ShapeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4035AE20084EB700BF5DE7 /* ShapeMaker.swift */; };
+		ED485095200E7640000DB4D2 /* CardViewDynamicBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED485094200E7640000DB4D2 /* CardViewDynamicBehavior.swift */; };
+		ED9F365D1FFFEB910083B1FE /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F365C1FFFEB910083B1FE /* SetGame.swift */; };
+		ED9F365F1FFFED5B0083B1FE /* SetGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F365E1FFFED5B0083B1FE /* SetGameTests.swift */; };
+		ED9F3663200003AA0083B1FE /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F3662200003AA0083B1FE /* CardTests.swift */; };
+		ED9F366D20014DA40083B1FE /* SetGameVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F366C20014DA40083B1FE /* SetGameVCTests.swift */; };
+		EDF954402009479400BE8D04 /* CardFieldViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9543F2009479400BE8D04 /* CardFieldViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1622681FFECF0500A06560 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		ED16226A1FFEDFB000A06560 /* Card Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card Enums.swift"; sourceTree = "<group>"; };
+		ED187C5B21597EFE002005C7 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		ED217ABC2158322C00A85400 /* CGPointExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
 		ED3FC9811FFEC824004A684A /* CSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3FC9841FFEC824004A684A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED3FC9861FFEC824004A684A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED3FC9861FFEC824004A684A /* SetGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameVC.swift; sourceTree = "<group>"; };
 		ED3FC9891FFEC824004A684A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED3FC98B1FFEC824004A684A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3FC98E1FFEC824004A684A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3FC9901FFEC824004A684A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3FC9951FFEC824004A684A /* CSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED3FC9991FFEC824004A684A /* CSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSetTests.swift; sourceTree = "<group>"; };
 		ED3FC99B1FFEC824004A684A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4035A62007D74400BF5DE7 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		ED4035A82007D83500BF5DE7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ED4035AA2007D85300BF5DE7 /* CardFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFieldView.swift; sourceTree = "<group>"; };
+		ED4035AE20084EB700BF5DE7 /* ShapeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMaker.swift; sourceTree = "<group>"; };
+		ED485094200E7640000DB4D2 /* CardViewDynamicBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewDynamicBehavior.swift; sourceTree = "<group>"; };
+		ED9F365C1FFFEB910083B1FE /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		ED9F365E1FFFED5B0083B1FE /* SetGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameTests.swift; sourceTree = "<group>"; };
+		ED9F3662200003AA0083B1FE /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		ED9F366C20014DA40083B1FE /* SetGameVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameVCTests.swift; sourceTree = "<group>"; };
+		EDF9543F2009479400BE8D04 /* CardFieldViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFieldViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED1622671FFECEE600A06560 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1622681FFECF0500A06560 /* Card.swift */,
+				ED9F365C1FFFEB910083B1FE /* SetGame.swift */,
+				ED4035A62007D74400BF5DE7 /* Grid.swift */,
+				ED4035AE20084EB700BF5DE7 /* ShapeMaker.swift */,
+				ED485094200E7640000DB4D2 /* CardViewDynamicBehavior.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED16226C1FFEDFB800A06560 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ED16226A1FFEDFB000A06560 /* Card Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		ED2A16ED2003E95800DE580A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FC9861FFEC824004A684A /* SetGameVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ED3FC9781FFEC824004A684A = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +131,13 @@
 		ED3FC9831FFEC824004A684A /* CSet */ = {
 			isa = PBXGroup;
 			children = (
+				EDF954412009479900BE8D04 /* Protocols */,
+				EDBFBD6B20069E7B0039BBE0 /* View */,
+				ED2A16ED2003E95800DE580A /* Controller */,
+				ED9F3666200007020083B1FE /* Extensions */,
+				ED16226C1FFEDFB800A06560 /* Enums */,
+				ED1622671FFECEE600A06560 /* Model */,
 				ED3FC9841FFEC824004A684A /* AppDelegate.swift */,
-				ED3FC9861FFEC824004A684A /* ViewController.swift */,
 				ED3FC9881FFEC824004A684A /* Main.storyboard */,
 				ED3FC98B1FFEC824004A684A /* Assets.xcassets */,
 				ED3FC98D1FFEC824004A684A /* LaunchScreen.storyboard */,
@@ -90,10 +149,38 @@
 		ED3FC9981FFEC824004A684A /* CSetTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED3FC9991FFEC824004A684A /* CSetTests.swift */,
 				ED3FC99B1FFEC824004A684A /* Info.plist */,
+				ED9F365E1FFFED5B0083B1FE /* SetGameTests.swift */,
+				ED9F3662200003AA0083B1FE /* CardTests.swift */,
+				ED9F366C20014DA40083B1FE /* SetGameVCTests.swift */,
 			);
 			path = CSetTests;
+			sourceTree = "<group>";
+		};
+		ED9F3666200007020083B1FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED217ABC2158322C00A85400 /* CGPointExtensions.swift */,
+				ED187C5B21597EFE002005C7 /* CGRectExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDBFBD6B20069E7B0039BBE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED4035A82007D83500BF5DE7 /* CardView.swift */,
+				ED4035AA2007D85300BF5DE7 /* CardFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDF954412009479900BE8D04 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EDF9543F2009479400BE8D04 /* CardFieldViewDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +233,12 @@
 				TargetAttributes = {
 					ED3FC9801FFEC824004A684A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					ED3FC9941FFEC824004A684A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = ED3FC9801FFEC824004A684A;
 					};
@@ -199,8 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3FC9871FFEC824004A684A /* ViewController.swift in Sources */,
+				ED187C5C21597EFE002005C7 /* CGRectExtension.swift in Sources */,
+				ED9F365D1FFFEB910083B1FE /* SetGame.swift in Sources */,
+				ED4035A92007D83500BF5DE7 /* CardView.swift in Sources */,
+				ED3FC9871FFEC824004A684A /* SetGameVC.swift in Sources */,
+				ED4035AF20084EB700BF5DE7 /* ShapeMaker.swift in Sources */,
+				EDF954402009479400BE8D04 /* CardFieldViewDelegate.swift in Sources */,
+				ED16226B1FFEDFB000A06560 /* Card Enums.swift in Sources */,
+				ED4035AB2007D85300BF5DE7 /* CardFieldView.swift in Sources */,
+				ED1622691FFECF0500A06560 /* Card.swift in Sources */,
 				ED3FC9851FFEC824004A684A /* AppDelegate.swift in Sources */,
+				ED4035A72007D74400BF5DE7 /* Grid.swift in Sources */,
+				ED217ABD2158322C00A85400 /* CGPointExtensions.swift in Sources */,
+				ED485095200E7640000DB4D2 /* CardViewDynamicBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3FC99A1FFEC824004A684A /* CSetTests.swift in Sources */,
+				ED9F366D20014DA40083B1FE /* SetGameVCTests.swift in Sources */,
+				ED9F365F1FFFED5B0083B1FE /* SetGameTests.swift in Sources */,
+				ED9F3663200003AA0083B1FE /* CardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +458,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B96T946Q6;
 				INFOPLIST_FILE = CSet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Saunders.Test.8539.CSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -371,10 +474,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B96T946Q6;
 				INFOPLIST_FILE = CSet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Saunders.Test.8539.CSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -384,13 +488,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B96T946Q6;
 				INFOPLIST_FILE = CSetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Saunders.Test.8539.CSetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSet.app/CSet";
 			};
@@ -401,13 +508,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B96T946Q6;
 				INFOPLIST_FILE = CSetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Saunders.Test.8539.CSetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSet.app/CSet";
 			};
